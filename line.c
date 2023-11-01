@@ -107,7 +107,7 @@ int errorList(char* list, int numLine){
 	for(i = 0; i < length; i++){ /*go forward in the list*/
 		if(list[i] == ','){ /*comma*/
 			if(comma == 1){ /*two commas consecutively*/
-				printf("In line: %d, missing argument between two comas\n", numLine);
+				printf("In line: %d, missing argument between two comands\n", numLine);
 				legal = 0;
 			}
 			comma = 1;
@@ -119,7 +119,7 @@ int errorList(char* list, int numLine){
 
 		else{
 			if(space == 1 && comma == 0){
-				printf("In line: %d, missing comma between two argumants\n", numLine);
+				printf("In line: %d, missing command between two argumants\n", numLine);
 				legal = 0;
 			}
 			comma = 0;

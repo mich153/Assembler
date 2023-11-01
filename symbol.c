@@ -81,10 +81,10 @@ char* symbolName(char* line, int lineNum){
 	
 	if(search(def) != EOF && strcmp(next, ".entry") != 0 && strcmp(next, ".extern") != 0)
 		/*the symbol definded before*/
-		printf("In line: %d, the symbol '%s' is already defined before.\n", lineNum, def);
+		printf("In line: %d, the symbol '%s' is already defined.\n", lineNum, def);
 	
 	else if(legalName(def) == 0)/*the symbol's name is illegal*/
-		printf("In line: %d, the symbol's name '%s' is illegal.\n", lineNum, def);
+		printf("In line: %d, illegal symbol name: '%s'.\n", lineNum, def);
 	
 	else /*no problems*/
 		return_val = def;

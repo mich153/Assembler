@@ -14,7 +14,7 @@ The CPU has 8 general registers, all labled r + their index number (e.g. r0, r1.
 ### The Memory
 The memory has 4096 word, all labled with a number from 0 to 4095. Each word has 12 bits. The bits are labeled in the same way as they are in the registers.
 
-## run
+## running
 The given assembly source files, must be in the same folder as the program's source files.
 At "examples" folder, there are 3 examples for assembly valid files all labled with good + number + .as (e.g. good1.as, good2.as, good3.as), one assembly source file with errors, which named: wrong.as, and the files that the assembler created for the source files without errors.
 When start running of program in the command line, need to write the names of assembly files withot the ending (.as).

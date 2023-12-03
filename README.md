@@ -1,5 +1,5 @@
 # Assembler Project - Final Project
-This project is an Assembler written in the C programming language.
+This project is an assembler written in the C programming language.
 The assembler supports 16 different commands and different types of data (e.g. strings). 
 The assembler is program that get names of files which written in assembly (specifically created for this project), for each file the assembler looks for errors, if there are errors, it print them, and if not it creates a file of machine code.
 

@@ -1,7 +1,8 @@
-/* The program is assembler (without link, load and implementation steps), the program:
--get names of source files in assembly from the command line
--report to the standart input about errors if there are
--if there are no errors: make object, entries and externals files*/
+/* The program is assembler
+The actions that the program performs:
+-get names of assembly source files in assembly from the command line
+-report to the standart input about errors for each file that has any error
+-for each files that hasn't errors, the program creating object file, file with the entries symbols, and file with the externals symbols*/
 
 /* The assumptions in the program:
 -maximum length in line is 81 (with '\n')

@@ -1,7 +1,7 @@
 # Assembler Project - Final Project
 This project is an Assembler written in the C programming language.
 The assembler supports 16 different commands and different types of data (e.g. strings). 
-The assembler is program that get names of files which written in Assembly (specifically created for this project), for each file the assembler looks for errors, if there are errors, it print them, and if not it creates a file of machine code.
+The assembler is program that get names of files which written in assembly (specifically created for this project), for each file the assembler looks for errors, if there are errors, it print them, and if not it creates a file of machine code.
 
 The commands it supports are as following: mov, cmp, add, sub, lea, clr, not, inc, dec, jmp, bne, jsr, red, prn, rts, stop
 
@@ -13,3 +13,11 @@ The CPU has 8 general registers, all labled r + their index number (e.g. r0, r1.
 
 ### The Memory
 The memory has 4096 word, all labled with a number from 0 to 4095. Each word has 12 bits. The bits are labeled in the same way as they are in the registers.
+
+## run
+The given assembly source files, must be in the same folder as the program's source files.
+At "examples" folder, there are 3 examples for assembly valid files all labled with good + number + .as (e.g. good1.as, good2.as, good3.as), one assembly source file with errors, which named: wrong.as, and the files that the assembler created for the source files without errors.
+When start running of program in the command line, need to write the names of assembly files withot the ending (.as).
+
+Examples of program running, in a different situations:
+![image](https://github.com/mich153/Assembler/assets/148886575/bd07ed62-e7a5-4ab7-8eec-aec9b599481c)

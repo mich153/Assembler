@@ -20,5 +20,6 @@ At "examples" folder, there are 3 examples for assembly valid files all labled w
 When start running of program in the command line, need to write the names of assembly files withot the ending (.as).
 
 Examples of program running, in a different situations:
-![image](https://github.com/mich153/Assembler/assets/148886575/0872703f-7f48-4bd0-abb2-3e4ece0a39c4)
+![image](https://github.com/mich153/Assembler/assets/148886575/8f74b4c6-85ac-4e23-8af3-163e1f44929e)
+
 
